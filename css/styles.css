@@ -20,7 +20,6 @@ ul {
 /* Header */
 .header {
   background-color: #0c0c0c;
-  box-shadow: 1px 1px 5px 0px #333;
   position: sticky;
   top: 0;
   display: flex;
@@ -117,6 +116,10 @@ ul {
   top: 0;
 }
 
+.section3 h1 {
+  display: none;
+}
+
 /* Responsiveness */
 @media (min-width: 768px) {
   .header {
@@ -204,7 +207,7 @@ ul {
   flex-wrap: wrap;
   justify-content: center;
   gap: 2em;
-  margin-top: 12em;
+  margin-top: 10em;
 }
 
 /* Estilo para las tarjetas */
@@ -233,6 +236,7 @@ ul {
   padding: 20px;
   margin: auto;
   display: grid;
+  padding-top: 3em;
 }
 
 .section3__container {
@@ -246,7 +250,6 @@ ul {
 
 .section3__container .card {
   background: black;
-  /*margin-top: 2em;*/
   width: 18em;
   height: 18em;
   padding: 0;
@@ -283,6 +286,7 @@ ul {
 .section4 iframe {
   width: 65%;
   height: 80%;
+  padding-top: 2em;
 }
 
 .section5 {
@@ -399,6 +403,7 @@ footer .content h4 {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin-top: 3em;
   }
 
   .section2 {
@@ -407,6 +412,7 @@ footer .content h4 {
     box-shadow: inset 0 0 0 1000px rgb(0 0 0 / 70%);
     height: 100%;
     padding: 20px;
+    margin-bottom: -2em;
   }
 
   .section2 h1 {
@@ -415,10 +421,8 @@ footer .content h4 {
     margin-bottom: 1em;
     font-size: 0.8em;
     height: fit-content;
-    text-align: left;
-    padding-left: 1em;
-    padding-top: 2em;
-    text-align: center;
+    padding-left: 0em;
+    padding-top: 5em;
   }
 
   .section2__container {
@@ -429,6 +433,11 @@ footer .content h4 {
     justify-content: center;
     gap: 2em;
     margin-top: 2em;
+  }
+
+  .section2__container .card {
+    width: 16em;
+    height: 12em;
   }
 
   /* Estilo para las tarjetas */
@@ -451,12 +460,24 @@ footer .content h4 {
     height: auto;
   }
 
+  .section3 h1 {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 1em;
+    font-size: 0.8em;
+    height: fit-content;
+    padding-left: 0em;
+    padding-top: 5em;
+    display: unset;
+  }
+
   .section3 {
     background-color: #030303;
     height: 100%;
     padding: 20px;
     margin: auto;
     display: grid;
+    padding-bottom: 3em;
   }
 
   .section3__container {
@@ -469,9 +490,9 @@ footer .content h4 {
   }
 
   .section3__container .card {
-    /*margin-top: 2em;*/
+    margin-top: 1em;
     width: 10em;
-    height: 10em;
+    height: 9em;
     padding: 0;
   }
 
@@ -492,6 +513,8 @@ footer .content h4 {
     padding: 20px;
     margin: auto;
     display: grid;
+    padding-top: 3em;
+    padding-bottom: 3em;
   }
 
   .section5__container {
@@ -674,7 +697,7 @@ footer .content h4 {
     height: fit-content;
     text-align: left;
     padding-left: 2em;
-    padding-top: 1em;
+    padding-top: 3em;
   }
 
   .section2__container {
@@ -812,7 +835,7 @@ footer .content h4 {
     height: fit-content;
     text-align: left;
     padding-left: 2em;
-    padding-top: 1em;
+    padding-top: 3em;
   }
 
   .section2__container {
@@ -822,7 +845,7 @@ footer .content h4 {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2em;
-    margin-top: 10em;
+    margin-top: 6em;
   }
 
   /* Estilo para las tarjetas */
@@ -836,7 +859,7 @@ footer .content h4 {
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    width: 20em;
+    width: 16em;
   }
 
   /* Estilo para las imágenes en las tarjetas */
@@ -851,6 +874,7 @@ footer .content h4 {
     padding: 20px;
     margin: auto;
     display: grid;
+    padding-top: 4em;
   }
 
   .section3__container {
@@ -864,8 +888,8 @@ footer .content h4 {
 
   .section3__container .card {
     /*margin-top: 2em;*/
-    width: 18em;
-    height: 18em;
+    width: 15em;
+    height: 15em;
     padding: 0;
   }
 
@@ -878,6 +902,7 @@ footer .content h4 {
   .section4 iframe {
     width: 65%;
     height: 75%;
+    padding-top: 3em;
   }
 
   .section5 {
